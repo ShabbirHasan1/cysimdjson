@@ -20,7 +20,7 @@ extensions = [
 		language="c++",
 		extra_compile_args=[
 			"-std=c++17",  # for std::string_view class that became standard in C++17
-			"-Wno-deprecated",
+# 			"-Wno-deprecated",
 		],
 	)
 ]
